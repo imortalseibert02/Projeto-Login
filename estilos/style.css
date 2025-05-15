@@ -52,28 +52,27 @@ div#formulario {
     padding: 10px;
 }
 
-form > div.campo{
-    background-color:#ffe1c6;
+form>div.campo {
+    background-color: #ffe1c6;
     display: block;
     width: 100%;
     height: 40px;
     border-radius: 5px;
-    border: 2px solid #ffe1c6 ;
+    border: 2px solid #ffe1c6;
 }
 
-div.campo > label{
+div.campo>label {
     display: none;
 }
 
-div.campo > span{
-    color:#7a5b41 ;
-    
+div.campo>span {
+    color: #7a5b41;
     font-size: 2em;
     width: 40px;
     padding: 5px;
 }
 
-div.campo > input{
+div.campo>input {
     font-size: 1em;
     background-color: #ffffff;
     height: 100%;
@@ -100,14 +99,14 @@ form>input[type=submit] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-border: 1px solid  #fab881;
+    border: 1px solid #fab881;
 }
 
 form>input[type=submit]:hover {
     background-color: #fab881;
 }
 
-form > a.botao {
+form>a.botao {
     text-align: center;
     margin-top: 10px;
     display: block;
@@ -120,11 +119,9 @@ form > a.botao {
     border: 1px solid #fab881;
     border-radius: 5px;
     text-decoration: none;
-    
+
 }
 
-form > a.botao:hover {
-     background-color: #fab881;
+form>a.botao:hover {
+    background-color: #fab881;
 }
-
-

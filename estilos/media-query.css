@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-/* TYPICAL DEVICE BREAKINGPOINTS(TAMANHO DAS TELAS)
-pequenas telas: até 600px
-celular:        de 600px até 768px
-tablet:         de 768px até 992px
-desktop:        de 992 px até 1200px
-grandes telas:  acima de 1200px
-*/
-
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     /* TABLETS*/
@@ -70,11 +62,11 @@ grandes telas:  acima de 1200px
         transform: translate(45px, -48px);
     }
 
-    div.campo > span{
-    color:#7a5b41 ;
-    font-size: 2em;
-    width: 40px;
-    padding: 5px;
-    transform: translateY(-5px);
-}
+    div.campo>span {
+        color: #7a5b41;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+        transform: translateY(-5px);
+    }
 }
