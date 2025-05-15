@@ -16,6 +16,7 @@ grandes telas:  acima de 1200px
     }
 
     section#login {
+        height: 350px;
         width: 80vw;
     }
 
@@ -40,7 +41,7 @@ grandes telas:  acima de 1200px
 
     section#login {
         width: 950px;
-        
+        height: 400px;
     }
 
     section#login>div#imagem {
@@ -58,4 +59,15 @@ div#formulario > h1{
         width: 50%;
 font-size: 1.2em;
     }
+
+    div.campo > input{
+    font-size: 1em;
+    background-color: #ffffff;
+    height: 100%;
+    width: calc(100% - 44px);
+    border-radius: 5px;
+    padding: 4px;
+    
+    transform: translate(45px, -48px);
+}
 }
