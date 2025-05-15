@@ -50,24 +50,31 @@ grandes telas:  acima de 1200px
         height: 100%;
     }
 
-div#formulario > h1{
-    font-size: 2em;
-}
+    div#formulario>h1 {
+        font-size: 2em;
+    }
 
     section#login>div#formulario {
         float: right;
         width: 50%;
-font-size: 1.2em;
+        font-size: 1.2em;
     }
 
-    div.campo > input{
-    font-size: 1em;
-    background-color: #ffffff;
-    height: 100%;
-    width: calc(100% - 44px);
-    border-radius: 5px;
-    padding: 4px;
-    
-    transform: translate(45px, -48px);
+    div.campo>input {
+        font-size: 1em;
+        background-color: #ffffff;
+        height: 100%;
+        width: calc(100% - 44px);
+        border-radius: 5px;
+        padding: 4px;
+        transform: translate(45px, -48px);
+    }
+
+    div.campo > span{
+    color:#7a5b41 ;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    transform: translateY(-5px);
 }
 }
