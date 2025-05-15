@@ -26,28 +26,33 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.31);
+
+    transition: width.3s, height .3s;
+    transition-timing-function: ease;
 }
 
-div#imagem {
+section#login > div#imagem {
     display: block;
     background-image: url(../imagens/pexels-jordicosta-31469971.jpg);
     height: 200px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-}
+
+} 
 
 div#formulario {
     padding: 10px;
 }
 
-div#formulario>h1 {
+section#login > div#formulario>h1 {
     display: block;
     text-align: center;
 }
